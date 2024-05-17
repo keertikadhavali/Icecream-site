@@ -1,0 +1,63 @@
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        background-size: contain; /* Adjusting background size for smaller screens */
+    }
+}
+.nav li a {
+    font-size: 14px; /* Decreasing font size for smaller screens */
+    padding: 8px 12px; /* Adjusting padding for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .nav li a {
+        font-size: 16px; /* Restoring font size for larger screens */
+        padding: 8px 16px; /* Restoring padding for larger screens */
+    }
+}
+.title p {
+    font-size: 36px; /* Decreasing font size for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .title p {
+        font-size: 70px; /* Restoring font size for larger screens */
+    }
+}
+.about-us-container {
+    padding: 20px; /* Adjusting padding for smaller screens */
+    height: auto; /* Allowing height to adjust dynamically */
+    flex-direction: column; /* Stacking columns vertically for smaller screens */
+}
+.button {
+    padding: 12px 24px; /* Adjusting padding for smaller screens */
+    font-size: 14px; /* Decreasing font size for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 15px 32px; /* Restoring padding for larger screens */
+        font-size: 16px; /* Restoring font size for larger screens */
+    }
+}
+.contact-container {
+    padding: 40px; /* Adjusting padding for smaller screens */
+}
+
+.subtext {
+    font-size: 16px; /* Decreasing font size for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        padding: 100px; /* Restoring padding for larger screens */
+    }
+
+    .subtext {
+        font-size: 20px; /* Restoring font size for larger screens */
+    }
+}
